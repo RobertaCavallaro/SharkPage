@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#42413C;
+}
+.container-fluid {
+  background-color: #7bb8a5;
+}
+
+aside {
+  background-color: #3b8686;
+  color: white;
+}
+.adorable {
+  padding: 1em 0;
+}
+
+
+
+.footer {
+  min-height: 55px;
+
+  background-color: #7bb8a5;
+}
+
+.adorable {
+  margin-bottom: 0;
+  padding: 2px;
+}
+.container1 {
+  background-color: #42413c;
+}
+
+.nav-item:hover {
+  background-color: #9ed3c2;
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-item {
+    background-color: #3b8686;
+  }
+
+  .nav-link {
+    color: white;
+    border-top: 1px solid;
+  }
+ figure figcaption {
+text-align: center;
+padding-right: 1rem;
+  }
+
+}
+
+.aside {
+  color: white;
+}
+footer p {
+  padding-top: 10px;
+}
+h1,
+h2 {
+  font-family: "Freckle Face", cursive;
+}
+figcaption {
+  font-size: 10px;
+  color: #666;
+  font-style: italic;
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+img {
+  max-width: 50%;
+  margin-right: 20px;
+}
+
+aside {
+  flex-basis: 50%;
+}
+
+.clear {
+  clear: both;
+}
+header {
+  font-family: default;
+}
+main h2 {
+  color:#3B8686;
+  margin-left: 10px;
+}
+main h1{
+  margin-left: 10px;
+}
+main p {
+  margin-left: 10px;
+}
+
+
+
+/* make sure the fig caption displays at a 10px font, the color of 666, italic, horizontal padding of 15px and vertical padding of 0 and aligns right for the 2 column layout and 
